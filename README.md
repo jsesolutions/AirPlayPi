@@ -13,3 +13,29 @@ Diese Datei (ohne Erweiterung auf der Boot Partition des Pi erzeugen, um nach de
 
 Dieses Script nimmt alle Einstellungen vor, um den DAC zu verwenden
 
+Installation von shairport:
+
+> sudo apt-get update
+
+> sudo apt-get upgrade
+
+> sudo apt-get install autoconf automake avahi-daemon build-essential git libasound2-dev libavahi-client-dev libconfig-dev libdaemon-dev libpopt-dev libssl-dev libtool xmltoman
+
+> sudo git clone https://github.com/mikebrady/shairport-sync.git
+
+> cd shairport-sync
+
+> sudo autoreconf -i -f
+
+> sudo ./configure --with-alsa --with-avahi --with-ssl=openssl --with-systemd --with-metadata
+
+> sudo make
+
+> sudo make install
+
+> sudo systemctl enable shairport-sync
+
+
+Manuell starten
+
+> sudo service shairport-sync start
