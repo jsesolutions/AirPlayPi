@@ -3,6 +3,11 @@ Eine Sammlung aller erforderlichen Hinweise, um einen AirPlay Lautsprecher mit H
 
 Verwendet habe ich einen Raspberry Pi Zero W, sowie das Adafruit I2S Stereo Decoder - UDA1334A Breakout Board.
 
+Anschlussplan:
+
+https://cdn-learn.adafruit.com/assets/assets/000/048/405/medium800/adafruit_products_piuda_bb.png?1511297577
+
+
 
 >  wpasupplicant.conf
 
