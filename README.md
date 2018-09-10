@@ -1,6 +1,9 @@
 # AirPlayPi
 Eine Sammlung aller erforderlichen Hinweise, um einen AirPlay Lautsprecher mit Hilfe eine Pi Zero W zu basteln.
 
+Verwendet habe ich einen Raspberry Pi Zero W, sowie das Adafruit I2S Stereo Decoder - UDA1334A Breakout Board.
+
+
 >  wpasupplicant.conf
 
 Diese Datei auf der Boot Partition des Pi erzeugen, um direkt nach dem Booten Zugang zum Netzwerk zu haben.
