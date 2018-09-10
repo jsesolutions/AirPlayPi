@@ -13,7 +13,7 @@ Diese Datei (ohne Erweiterung auf der Boot Partition des Pi erzeugen, um nach de
 
 Dieses Script nimmt alle Einstellungen vor, um den DAC zu verwenden
 
-Installation von shairport:
+Installation von shairport: (https://thepi.io/how-to-set-up-a-raspberry-pi-airplay-receiver/)
 
 > sudo apt-get update
 
