@@ -5,8 +5,7 @@ Verwendet habe ich einen Raspberry Pi Zero W, sowie das Adafruit I2S Stereo Deco
 
 Anschlussplan:
 
-https://cdn-learn.adafruit.com/assets/assets/000/048/405/medium800/adafruit_products_piuda_bb.png?1511297577
-Anschluß.png
+https://github.com/jsesolutions/AirPlayPi/blob/master/Anschlu%C3%9F.png
 
 
 >  wpasupplicant.conf
